@@ -1,0 +1,14 @@
+.caja {
+  /* Calc para operaciones matematicas como /, +, -, *  */
+  /* La funcion min selecciona el numero menor que tenga agregado*/
+  /*La funcion max selecciona el numero mayor que tenga agregado*/
+  /*La funcion clamp permite pasar 3 parametros el primero es el valor minimo, el segundo el valor que quiero que realmente tenga y el tercero es el valor maximo*/
+  width: clamp(200px, 40%, 500px);
+  height: calc(300px * 2);
+  border: 2px solid red;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: calc(300px * 2);
+}
